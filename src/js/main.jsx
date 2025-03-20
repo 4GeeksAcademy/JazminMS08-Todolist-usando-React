@@ -7,12 +7,11 @@ import "bootstrap"
 
 // index.css'
 import '../styles/index.css'
+import ListaTareas from './components/ListaTareas';
 
-// components
-import Home from './components/Home';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+  <ListaTareas/>
   </React.StrictMode>,
 )
